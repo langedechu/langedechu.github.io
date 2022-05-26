@@ -1,0 +1,139 @@
+* {
+  font-family: "Segoe UI";
+  color: white;
+}
+
+html {
+  background-color: #1a1a1a;
+}
+
+body {
+  background-color: #394746;
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+
+  border-left: 1px solid #ffffff;
+  border-right: 1px solid #ffffff;
+
+  /* padding-bottom: 1em; */
+}
+
+h1 {
+  margin: 0 0 0.5em 0;
+  padding-top: 0.5em;
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  /* margin: 2em 0; */
+}
+
+.col {
+  margin: 0 1em;
+  flex: 1;
+}
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.button {
+  margin: 1em;
+  padding: 1em;
+  border-radius: 1em;
+
+  transition-duration: 100ms;
+
+  font-weight: bolder;
+  text-decoration: none;
+
+  font-size: 1.2em;
+
+  width: 1.5em;
+  height: 1.5em;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#discord {
+  background-color: #5865f2;
+}
+
+#discord:hover {
+  background-color: #707af3;
+}
+
+#instagram {
+  background-color: #833ab4;
+}
+
+#instagram:hover {
+  background-color: #a55ed4;
+}
+
+#github {
+  background-color: #292929;
+}
+
+#github:hover {
+  background-color: #383838;
+}
+
+p {
+  text-align: justify;
+  margin: 1em auto;
+  /* width: 50%; */
+}
+
+h2 {
+  text-align: center;
+  font-family: monospace;
+  font-size: 2em;
+  margin: 1em 0;
+}
+
+hr {
+  margin: 2em 0 0 0;
+}
+
+.container {
+  background-color: rgba(0, 0, 0, 0.3);
+  border-radius: 1em;
+  padding: 1em;
+}
+
+footer {
+  padding: 2em;
+  margin-top: 2em;
+  background-color: #1a1a1a;
+  border-top: #fff solid 1px;
+  text-align: center;
+  font-weight: bolder;
+  /* color: #a1a1a1; */
+}
+
+header {
+  border-bottom: #fff solid 1px;
+  padding-bottom: 1em;
+  background-color: #1a1a1a;
+}
+
+@media (max-width: 768px) {
+  .row {
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 1440px) {
+  body {
+    width: 50%;
+  }
+}

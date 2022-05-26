@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>La Licorne du Bonheur</title>
+
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+      }
+
+      .main {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+
+        background: rgb(251, 63, 225);
+        background: -moz-radial-gradient(
+          circle,
+          rgba(251, 63, 225, 1) 0%,
+          rgba(252, 70, 107, 1) 100%
+        );
+        background: -webkit-radial-gradient(
+          circle,
+          rgba(251, 63, 225, 1) 0%,
+          rgba(252, 70, 107, 1) 100%
+        );
+        background: radial-gradient(
+          circle,
+          rgba(251, 63, 225, 1) 0%,
+          rgba(252, 70, 107, 1) 100%
+        );
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#fb3fe1",endColorstr="#fc466b",GradientType=1);
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        color: aliceblue;
+        font-family: "Courier New", Courier, monospace;
+      }
+
+      #title {
+        text-shadow: rgba(40, 40, 40, 0.3) 1mm 1mm 2mm;
+      }
+
+      button {
+        z-index: 1000;
+        padding: 1rem;
+        border-radius: 1rem;
+        outline: none;
+        border: pink solid 2px;
+        font-weight: bold;
+        box-shadow: rgba(40, 40, 40, 0.3) 1mm 1mm 2mm;
+      }
+
+      /* img {
+        box-shadow: rgba(40, 40, 40, 0.3) 1mm 1mm 2mm;
+      } */
+
+      .patch {
+        margin: auto 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .patch2 {
+        display: flex;
+        align-items: center;
+        flex-direction: column-reverse;
+      }
+
+      .patch2 > img {
+        width: 10rem;
+        margin-top: 3rem;
+        transform: rotate(270deg);
+      }
+
+      .patch2 > button {
+        height: fit-content;
+      }
+
+      .cloud1 {
+        position: fixed;
+        /* bottom: -100px; */
+        /* left: -100px; */
+
+        bottom: -80px;
+        left: -50px;
+        width: 50rem;
+
+        filter: opacity(40%);
+      }
+
+      .cloud2 {
+        position: fixed;
+        /* top: -100px; */
+        /* right: -100px; */
+
+        top: 0;
+        right: 0;
+        width: 30rem;
+
+        filter: opacity(40%);
+      }
+
+      * {
+        text-align: center;
+      }
+
+      .unicorn {
+        z-index: 1000;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <img class="cloud1" src="./cloud.webp" alt="Nuage de BONHEUR!" />
+      <img class="cloud2" src="./cloud.webp" alt="Nuage de BONHEUR!" />
+
+      <div class="patch">
+        <img
+          src="./licorne.png"
+          alt="Licorne du BONHEUR!"
+          width="25%"
+          class="unicorn"
+        />
+        <h1 id="title">Cliquez sur le bouton!</h1>
+        <div class="patch2">
+          <img src="./here.gif" alt="Flèche du BONHEUR!" />
+          <button id="happy">Recevoir du bonheur</button>
+        </div>
+      </div>
+    </div>
+
+    <script>
+      var happy = document.getElementById("happy");
+      var title = document.getElementById("title");
+
+      var phrases = [
+        "Tu es magnifique!",
+        "Je te souhaite le bonheur!",
+        "Je t'aime fooooort!",
+        "Tu mérites tous les câlins du monde!",
+        "Tu mérites tous les bisous du monde!",
+        "*kiss sur ta petite joue toute mignonne*",
+        "Attaque de bisoooous!",
+      ];
+
+      happy.addEventListener("click", () => {
+        title.innerHTML = phrases[Math.floor(Math.random() * phrases.length)];
+      });
+    </script>
+  </body>
+</html>

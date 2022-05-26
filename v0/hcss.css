@@ -1,0 +1,790 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&family=Roboto&family=Ubuntu&family=Lato&display=swap");
+body,
+html {
+  margin: 0;
+}
+
+body a,
+html a {
+  text-decoration: none;
+  color: #7890f0;
+}
+
+body img,
+html img {
+  display: block;
+}
+
+body h1,
+body h2,
+body h3,
+body h4,
+body h5,
+body h6,
+html h1,
+html h2,
+html h3,
+html h4,
+html h5,
+html h6 {
+  font-family: "Oswald", sans-serif;
+  margin: 0;
+}
+
+body hr,
+html hr {
+  margin: 2% 2%;
+}
+
+body *,
+html * {
+  font-family: "Roboto", sans-serif;
+}
+
+body p,
+html p {
+  padding: 1%;
+  font-family: "Lato", sans-serif;
+}
+
+body .flex,
+html .flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body .f-auto,
+html .f-auto {
+  -webkit-box-flex: 1;
+      -ms-flex: auto;
+          flex: auto;
+}
+
+body .f-1,
+html .f-1 {
+  -webkit-box-flex: 1;
+      -ms-flex: auto;
+          flex: auto;
+}
+
+body .f-2,
+html .f-2 {
+  -webkit-box-flex: 1;
+      -ms-flex: auto;
+          flex: auto;
+}
+
+body .f-3,
+html .f-3 {
+  -webkit-box-flex: 1;
+      -ms-flex: auto;
+          flex: auto;
+}
+
+body .f-01,
+html .f-01 {
+  -webkit-box-flex: 0.1;
+      -ms-flex: 0.1;
+          flex: 0.1;
+}
+
+body .f-02,
+html .f-02 {
+  -webkit-box-flex: 0.2;
+      -ms-flex: 0.2;
+          flex: 0.2;
+}
+
+body .f-03,
+html .f-03 {
+  -webkit-box-flex: 0.3;
+      -ms-flex: 0.3;
+          flex: 0.3;
+}
+
+body .f-04,
+html .f-04 {
+  -webkit-box-flex: 0.4;
+      -ms-flex: 0.4;
+          flex: 0.4;
+}
+
+body .f-05,
+html .f-05 {
+  -webkit-box-flex: 0.5;
+      -ms-flex: 0.5;
+          flex: 0.5;
+}
+
+body .f-06,
+html .f-06 {
+  -webkit-box-flex: 0.6;
+      -ms-flex: 0.6;
+          flex: 0.6;
+}
+
+body .f-07,
+html .f-07 {
+  -webkit-box-flex: 0.7;
+      -ms-flex: 0.7;
+          flex: 0.7;
+}
+
+body .f-08,
+html .f-08 {
+  -webkit-box-flex: 0.8;
+      -ms-flex: 0.8;
+          flex: 0.8;
+}
+
+body .f-09,
+html .f-09 {
+  -webkit-box-flex: 0.9;
+      -ms-flex: 0.9;
+          flex: 0.9;
+}
+
+body .fd-row,
+html .fd-row {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+}
+
+body .fd-col,
+html .fd-col {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body .jcon-center,
+html .jcon-center {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .jcon-fs,
+html .jcon-fs {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+body .jcon-fe,
+html .jcon-fe {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+body .aite-center,
+html .aite-center {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .aite-fs,
+html .aite-fs {
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+body .aite-fe,
+html .aite-fe {
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+body .m-0,
+html .m-0 {
+  margin: 0;
+}
+
+body .m-1,
+html .m-1 {
+  margin: 1em;
+}
+
+body .m-2,
+html .m-2 {
+  margin: 2em;
+}
+
+body .m-3,
+html .m-3 {
+  margin: 3em;
+}
+
+body .m-4,
+html .m-4 {
+  margin: 4em;
+}
+
+body .m-5,
+html .m-5 {
+  margin: 5em;
+}
+
+body .mt-1,
+html .mt-1 {
+  margin-top: 1em;
+}
+
+body .mt-2,
+html .mt-2 {
+  margin-top: 2em;
+}
+
+body .mt-3,
+html .mt-3 {
+  margin-top: 3em;
+}
+
+body .mt-4,
+html .mt-4 {
+  margin-top: 4em;
+}
+
+body .mt-5,
+html .mt-5 {
+  margin-top: 5em;
+}
+
+body .mb-1,
+html .mb-1 {
+  margin-bottom: 1em;
+}
+
+body .mb-2,
+html .mb-2 {
+  margin-bottom: 2em;
+}
+
+body .mb-3,
+html .mb-3 {
+  margin-bottom: 3em;
+}
+
+body .mb-4,
+html .mb-4 {
+  margin-bottom: 4em;
+}
+
+body .mb-5,
+html .mb-5 {
+  margin-bottom: 5em;
+}
+
+body .ml-1,
+html .ml-1 {
+  margin-left: 1em;
+}
+
+body .ml-2,
+html .ml-2 {
+  margin-left: 2em;
+}
+
+body .ml-3,
+html .ml-3 {
+  margin-left: 3em;
+}
+
+body .ml-4,
+html .ml-4 {
+  margin-left: 4em;
+}
+
+body .ml-5,
+html .ml-5 {
+  margin-left: 5em;
+}
+
+body .mr-1,
+html .mr-1 {
+  margin-right: 1em;
+}
+
+body .mr-2,
+html .mr-2 {
+  margin-right: 2em;
+}
+
+body .mr-3,
+html .mr-3 {
+  margin-right: 3em;
+}
+
+body .mr-4,
+html .mr-4 {
+  margin-right: 4em;
+}
+
+body .mr-5,
+html .mr-5 {
+  margin-right: 5em;
+}
+
+body .p-0,
+html .p-0 {
+  padding: 0;
+}
+
+body .p-1,
+html .p-1 {
+  padding: 1em;
+}
+
+body .p-2,
+html .p-2 {
+  padding: 2em;
+}
+
+body .p-3,
+html .p-3 {
+  padding: 3em;
+}
+
+body .p-4,
+html .p-4 {
+  padding: 4em;
+}
+
+body .p-5,
+html .p-5 {
+  padding: 5em;
+}
+
+body .pt-1,
+html .pt-1 {
+  padding-top: 1em;
+}
+
+body .pt-2,
+html .pt-2 {
+  padding-top: 2em;
+}
+
+body .pt-3,
+html .pt-3 {
+  padding-top: 3em;
+}
+
+body .pt-4,
+html .pt-4 {
+  padding-top: 4em;
+}
+
+body .pt-5,
+html .pt-5 {
+  padding-top: 5em;
+}
+
+body .pb-1,
+html .pb-1 {
+  padding-bottom: 1em;
+}
+
+body .pb-2,
+html .pb-2 {
+  padding-bottom: 2em;
+}
+
+body .pb-3,
+html .pb-3 {
+  padding-bottom: 3em;
+}
+
+body .pb-4,
+html .pb-4 {
+  padding-bottom: 4em;
+}
+
+body .pb-5,
+html .pb-5 {
+  padding-bottom: 5em;
+}
+
+body .pl-1,
+html .pl-1 {
+  padding-left: 1em;
+}
+
+body .pl-2,
+html .pl-2 {
+  padding-left: 2em;
+}
+
+body .pl-3,
+html .pl-3 {
+  padding-left: 3em;
+}
+
+body .pl-4,
+html .pl-4 {
+  padding-left: 4em;
+}
+
+body .pl-5,
+html .pl-5 {
+  padding-left: 5em;
+}
+
+body .pr-1,
+html .pr-1 {
+  padding-right: 1em;
+}
+
+body .pr-2,
+html .pr-2 {
+  padding-right: 2em;
+}
+
+body .pr-3,
+html .pr-3 {
+  padding-right: 3em;
+}
+
+body .pr-4,
+html .pr-4 {
+  padding-right: 4em;
+}
+
+body .pr-5,
+html .pr-5 {
+  padding-right: 5em;
+}
+
+body .header,
+html .header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: #e6e6e6;
+  padding: 2%;
+}
+
+body .header.shadow,
+html .header.shadow {
+  -webkit-box-shadow: rgba(0, 0, 0, 0.12) 0 0.5em 5mm;
+          box-shadow: rgba(0, 0, 0, 0.12) 0 0.5em 5mm;
+}
+
+body .header.large,
+html .header.large {
+  height: 20em;
+}
+
+body .header.medium,
+html .header.medium {
+  height: 15em;
+}
+
+body .header.small,
+html .header.small {
+  height: 10em;
+}
+
+body .header.tiny,
+html .header.tiny {
+  height: 5em;
+}
+
+body .footer,
+html .footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: #dadada;
+  padding: 2%;
+}
+
+body .footer.shadow,
+html .footer.shadow {
+  -webkit-box-shadow: rgba(0, 0, 0, 0.12) 0 -0.5em 5mm;
+          box-shadow: rgba(0, 0, 0, 0.12) 0 -0.5em 5mm;
+}
+
+body .footer.large,
+html .footer.large {
+  height: 20em;
+}
+
+body .footer.medium,
+html .footer.medium {
+  height: 15em;
+}
+
+body .footer.small,
+html .footer.small {
+  height: 10em;
+}
+
+body .footer.tiny,
+html .footer.tiny {
+  height: 5em;
+}
+
+body .tcenter,
+html .tcenter {
+  text-align: center;
+}
+
+body .tleft,
+html .tleft {
+  text-align: left;
+}
+
+body .tright,
+html .tright {
+  text-align: right;
+}
+
+body .bg-green,
+html .bg-green {
+  background: #79ed56;
+  color: black;
+}
+
+body .bg-red,
+html .bg-red {
+  background: #d15454;
+  color: black;
+}
+
+body .bg-blue,
+html .bg-blue {
+  background: #49acee;
+  color: white;
+}
+
+body .bg-grey,
+html .bg-grey {
+  background: #aaaaaa;
+  color: black;
+}
+
+body .bg-dark,
+html .bg-dark {
+  background: #313131;
+  color: white;
+}
+
+body .bg-dark-bis,
+html .bg-dark-bis {
+  background: #3c3c3c;
+  color: white;
+}
+
+body .bg-dark-ter,
+html .bg-dark-ter {
+  background: #444444;
+  color: white;
+}
+
+body .green,
+html .green {
+  color: #79ed56;
+}
+
+body .red,
+html .red {
+  color: #d15454;
+}
+
+body .blue,
+html .blue {
+  color: #49acee;
+}
+
+body .grey,
+html .grey {
+  color: #aaaaaa;
+}
+
+body .dark,
+html .dark {
+  color: #313131;
+}
+
+body .dark-bis,
+html .dark-bis {
+  color: #3c3c3c;
+}
+
+body .dark-ter,
+html .dark-ter {
+  color: #444444;
+}
+
+body .navbar,
+html .navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+}
+
+body .navbar .brand,
+html .navbar .brand {
+  padding: 0 1.7% 0 1.7%;
+}
+
+body .navbar .item,
+html .navbar .item {
+  display: inline-block;
+  padding: 2%;
+}
+
+body .navbar .item:hover,
+html .navbar .item:hover {
+  background: rgba(0, 0, 0, 0.1);
+}
+
+body .navbar .end,
+html .navbar .end {
+  margin-left: auto;
+}
+
+body .rows,
+html .rows {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+body .row,
+html .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex: auto;
+          flex: auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body .col,
+html .col {
+  padding: 1%;
+  -webkit-box-flex: 1;
+      -ms-flex: auto;
+          flex: auto;
+}
+
+body .container,
+html .container {
+  padding: 2.5% 4.2%;
+  border-radius: 0.35em;
+}
+
+body .container.shadow,
+html .container.shadow {
+  -webkit-box-shadow: rgba(0, 0, 0, 0.12) 1mm 1mm 3.5mm;
+          box-shadow: rgba(0, 0, 0, 0.12) 1mm 1mm 3.5mm;
+}
+
+body .w25,
+html .w25 {
+  width: 25%;
+}
+
+body .w50,
+html .w50 {
+  width: 50%;
+}
+
+body .w75,
+html .w75 {
+  width: 75%;
+}
+
+body .w100,
+html .w100 {
+  width: 100%;
+}
+
+body .h25,
+html .h25 {
+  height: 25%;
+}
+
+body .h50,
+html .h50 {
+  height: 50%;
+}
+
+body .h75,
+html .h75 {
+  height: 75%;
+}
+
+body .h100,
+html .h100 {
+  height: 100%;
+}
+
+@media (max-width: 425px) {
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Oswald", sans-serif;
+    margin: 0;
+  }
+  h1 {
+    font-size: 1.45em;
+  }
+  h2 {
+    font-size: 1.37em;
+  }
+  h3 {
+    font-size: 1.33em;
+  }
+  h4 {
+    font-size: 1.28em;
+  }
+  h5 {
+    font-size: 1.2em;
+  }
+  h6 {
+    font-size: 1.13em;
+  }
+  p {
+    padding: 0;
+  }
+}
+
+@media (max-width: 900px) {
+  .rows {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .rows .row {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+/*# sourceMappingURL=hcss.css.map */
