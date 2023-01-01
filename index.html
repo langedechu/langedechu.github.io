@@ -4,124 +4,74 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Nocteria's Website</title>
+    <title>L'Ange Déchu</title>
 
     <link rel="stylesheet" href="style.css" />
-
-    <script
-      src="https://kit.fontawesome.com/211b7a92c5.js"
-      crossorigin="anonymous"
-    ></script>
   </head>
   <body>
-    <header>
-      <h1>Nocteria was here...</h1>
-    </header>
-
-    <div class="row">
-      <div class="col">
-        <h2>Who?</h2>
-
-        <div class="container">
-          <p>Hello world! My name is Paul.</p>
-
-          <p>
-            I'm currently a <b>high school student</b> and passionnate about
-            <b>software development</b>.
-          </p>
-
-          <p>
-            I started programming when I was <b>10 years old</b> and I've been
-            doing it ever since.
-          </p>
-
-          <p>
-            <b>Python</b> was my first language but I quickly switched on
-            <b>web developement</b> with <b>NodeJS</b>.
-          </p>
-
-          <p>
-            I was also interested by <b>making video games</b> and I've been
-            doing it for like a year. But I decided to stop because I didn't
-            have the time for it.
-          </p>
-        </div>
+    <div class="navbar">
+      <div class="logo">
+        <img src="favicon.ico" alt="Icon" />
       </div>
-      <div class="col">
-        <h2>Where?</h2>
-
-        <div class="container">
-          <div class="col buttons">
-            <a class="button" id="discord">
-              <i class="fab fa-discord"></i>
-            </a>
-            <a class="button" id="instagram">
-              <i class="fab fa-instagram"></i>
-            </a>
-            <a class="button" id="github">
-              <i class="fab fa-github"></i>
-            </a>
-          </div>
-        </div>
-
-        <h2>Why?</h2>
-
-        <div class="container">
-          <p>
-            I started learning programming because I wanted to make my own video
-            game. I asked to my uncle's boyfriend where and how I could make a
-            game and he told me to download an IDE and starting learning a
-            programming language.
-          </p>
-
-          <p>He told me it will be long and difficult but he believed in me.</p>
-
-          <p>
-            I was always super inspired by him. One day, I asked him if he was
-            able to unlock my computer, and without any problem he done it.
-          </p>
-
-          <p>
-            At this moment I was 9 years old and very fascinated by technology.
-          </p>
-
-          <p>
-            Now I'm following a professionnal course in electronics and network
-            management, my teachers are very nice and always try to push me
-            higher and higher.
-          </p>
-
-          <p>
-            They believe in my capacities and don't stop felicitating me for all
-            my works.
-          </p>
-        </div>
+      <div class="links">
+        <a href="https://instagram.com/langedechu_off">Instagram</a>
+        <a href="https://github.com/langdechu">GitHub</a>
       </div>
     </div>
 
-    <footer>Nocteria &copy; 2022</footer>
+    <div class="row">
+      <div class="col">
+        <section>
+          <h1>Qui suis-je ?</h1>
 
-    <script>
-      var urls = {
-        discord: "https://discord.gg/Tb4kZPhncG",
-        instagram: "https://www.instagram.com/langedechu_off/",
-        github: "https://www.github.com/n0ct3ri4",
-      };
+          <p>
+            Coucou ! Je m'appelle Paul, et je suis passionné d'informatique.
+          </p>
+        </section>
 
-      var buttons = {
-        discord: document.getElementById("discord"),
-        instagram: document.getElementById("instagram"),
-        github: document.getElementById("github"),
-      };
+        <section>
+          <h1>Expériences professionnelles :</h1>
 
-      buttons.discord.setAttribute("href", urls.discord);
-      buttons.discord.setAttribute("target", "_blank");
+          <li>
+            👩‍🔧 Technicien et chargé de maintenance dans une boîte
+            d'informatique.
+          </li>
 
-      buttons.instagram.setAttribute("href", urls.instagram);
-      buttons.instagram.setAttribute("target", "_blank");
+          <li>
+            👩‍💻 Technicien et chargé de maintenance informatique dans un collège.
+          </li>
 
-      buttons.github.setAttribute("href", urls.github);
-      buttons.github.setAttribute("target", "_blank");
-    </script>
+          <li>
+            📞 Chargé de maintenance et d'installation téléphonique à la mairie.
+          </li>
+        </section>
+      </div>
+      <div class="col">
+        <section>
+          <h1>Mon parcours :</h1>
+
+          <li>🧒 J'ai commencé le développement informatique à mes 10 ans.</li>
+
+          <li>
+            🐍 Comme beaucoup de personnes, j'ai commencé par apprendre le
+            Python.
+          </li>
+
+          <li>
+            🌐 Puis, j'ai connu les technologies du web et j'ai continué dans
+            cette lignée.
+          </li>
+
+          <li>
+            💾 J'ai étudié les bases de données, l'algorithmie et la sécurité.
+          </li>
+
+          <li>
+            📚 Aujourd'hui, je continue d'apprendre en autonomie, hors du
+            système scolaire secondaire.
+          </li>
+        </section>
+      </div>
+    </div>
   </body>
 </html>
