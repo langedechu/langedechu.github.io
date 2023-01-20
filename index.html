@@ -4,51 +4,46 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>L'Ange Déchu</title>
-
+    <title>Paul BONCAR - L'Ange Déchu</title>
     <link rel="stylesheet" href="style.css" />
+
+    <script
+      src="https://kit.fontawesome.com/211b7a92c5.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
-  <body>
-    <div class="navbar">
-      <div class="logo">
-        <img src="favicon.ico" alt="Icon" />
-      </div>
-      <div class="links">
-        <a href="https://instagram.com/langedechu_off">Instagram</a>
-        <a href="https://github.com/langedechu">GitHub</a>
-      </div>
-    </div>
+  <body class="bg-gray-900 text-white">
+    <nav class="flex bg-slate-800 items-center justify-between p-8">
+      <h1 class="text-3xl font-semibold font-mono">L'Ange Déchu</h1>
 
-    <div class="row">
-      <div class="col">
-        <section>
-          <h1>Qui suis-je ?</h1>
+      <span class="flex gap-3">
+        <a
+          href="https://instagram.com/langedechu_off/"
+          target="_blank"
+          class="hover:text-gray-300"
+        >
+          <i class="fa fa-instagram text-xl"> </i>
+        </a>
+        <a
+          href="https://github.com/langedechu"
+          target="_blank"
+          class="hover:text-gray-300"
+        >
+          <i class="fa fa-github text-xl"> </i>
+        </a>
+      </span>
+    </nav>
 
-          <p>
-            Coucou ! Je m'appelle Paul, et je suis passionné d'informatique.
-          </p>
-        </section>
+    <main class="mx-auto my-10 w-3/5 flex flex-col gap-10">
+      <p class="text-center text-lg">
+        Coucou ! Je m'appelle Paul, et je suis passionné d'informatique.
+      </p>
 
-        <section>
-          <h1>Expériences professionnelles :</h1>
+      <section class="flex flex-wrap gap-8">
+        <section class="flex flex-col gap-6 flex-1" class="card">
+          <h1 class="text-4xl font-bold">Mon parcours</h1>
 
-          <li>
-            👩‍🔧 Technicien et chargé de maintenance dans une boîte
-            d'informatique.
-          </li>
-
-          <li>
-            👩‍💻 Technicien et chargé de maintenance informatique dans un collège.
-          </li>
-
-          <li>
-            📞 Chargé de maintenance et d'installation téléphonique à la mairie.
-          </li>
-        </section>
-      </div>
-      <div class="col">
-        <section>
-          <h1>Mon parcours :</h1>
+          <hr class="mx-3 border-t border-gray-500" />
 
           <li>🧒 J'ai commencé le développement informatique à mes 10 ans.</li>
 
@@ -71,7 +66,27 @@
             système scolaire secondaire.
           </li>
         </section>
-      </div>
-    </div>
+
+        <section class="flex flex-col gap-6 flex-1" class="card">
+          <h1 class="text-4xl font-bold">Expériences pro</h1>
+
+          <hr class="mx-3 border-t border-gray-500" />
+
+          <li>
+            👩‍🔧 Technicien et chargé de maintenance dans une boîte
+            d'informatique.
+          </li>
+
+          <li>
+            👩‍💻 Technicien et chargé de maintenance informatique dans un collège.
+          </li>
+
+          <li>
+            📞 Chargé de maintenance et d'installation téléphonique dans une
+            mairie.
+          </li>
+        </section>
+      </section>
+    </main>
   </body>
 </html>
