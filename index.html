@@ -35,9 +35,34 @@
     </nav>
 
     <main class="mx-auto my-10 w-3/5 flex flex-col gap-10">
-      <p class="text-center text-lg">
-        Coucou ! Je m'appelle Paul, et je suis passionné d'informatique.
-      </p>
+      <hr />
+
+      <span class="flex flex-col gap-5">
+        <p class="text-center text-lg">
+          Coucou ! Je m'appelle Paul, et je suis passionné d'informatique.
+        </p>
+
+        <div id="donate-button-container" class="mx-auto">
+          <div id="donate-button"></div>
+          <script
+            src="https://www.paypalobjects.com/donate/sdk/donate-sdk.js"
+            charset="UTF-8"
+          ></script>
+          <script>
+            PayPal.Donation.Button({
+              env: "production",
+              hosted_button_id: "CXH7WCRLS7JEU",
+              image: {
+                src: "https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif",
+                alt: "Donate with PayPal button",
+                title: "PayPal - The safer, easier way to pay online!",
+              },
+            }).render("#donate-button");
+          </script>
+        </div>
+      </span>
+
+      <hr />
 
       <section class="flex flex-wrap gap-8">
         <section class="flex flex-col gap-6 flex-1" class="card">
